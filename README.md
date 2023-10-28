@@ -1,6 +1,11 @@
 # aad64_cloud_hosted_nb
 Cloud-Hosted Notebook Data Manipulation
 
+[![Install](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/install.yml)
+[![Format](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/format.yml)
+[![Test](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/test.yml)
+[![Lint](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/aad64_cloud_hosted_nb/actions/workflows/lint.yml)
+
 ## Structure of the Project:
 ```
 aad64_cloud_hosted_nb/
@@ -39,13 +44,13 @@ The EDA section also had an import subsection to see some possible relationships
 
 <p align = 'center'><img width="1037" alt="image" src="https://github.com/nogibjj/aad64_cloud_hosted_nb/assets/143753050/171a331a-f5b4-4b31-9785-f47415186223"></p>
 
-### Modelling:
+### Modelling and Conclusion:
 This section is designed to do some further analyses with this data. However, since I do not have domain knowledge on the matter, these analyses were not carried forward. As of now, my conclusions are based on the EDA, which were elaborated upon in the `Conclusion` section. 
 
 
 ## Workflows:
 
-As seen below, my code passes the following CI/CD best practices:
+As seen below, my code passes the following CI/CD best practices. This is also highlighted by the status badges at the top of the README.
 
 ### Linting:
 This was done using ruff (`ruff check *.py`).
