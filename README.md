@@ -24,6 +24,8 @@ aad64_cloud_hosted_nb/
 ```
 
 ## Jupyter Notebook:
+This notebook was created using `Google Colab` and then uploaded to my git repository. 
+
 ### Ingest:
 This section has a few cells to load and glimpse the data. This is just the preliminary section of the notebook that is not necessary to understand the actual data, so it's easily collapsible. 
 
