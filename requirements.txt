@@ -8,6 +8,7 @@ pytest-cov==4.0.0
 pylint==2.15.3
 ruff==0.0.278
 boto3==1.24.87
+unittest == 2.0
 #web
 fastapi==0.85.0
 uvicorn==0.18.3
